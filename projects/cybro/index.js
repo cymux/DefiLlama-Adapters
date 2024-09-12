@@ -39,7 +39,7 @@ async function tvl(api) {
 }
 
 module.exports = {
-    methodology: 'this is a small description that will explain to DefiLlama users how the adapter works out your protocol\'s TVL',
+    methodology: "We calculate TVL based on the Total Supply of our proxy contracts through which users interact with vault's contracts",
     start: 1000235,
     blast: {tvl},
 };
